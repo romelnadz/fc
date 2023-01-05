@@ -1,6 +1,6 @@
 .product_img_modal
 {
-	background: url('../src/product/product_thumb_hover1.png');
+	background: url('../src/product/product_thumb_hover1_1.png');
 	background-repeat: no-repeat;
 	background-attachment: contain;
 	background-size: 100%;
@@ -10,7 +10,7 @@
 
 .product_img1
 {
-	background: url('../src/product/product_thumb1.png');
+	background: url('../src/product/product_thumb1_1.png');
 	background-repeat: no-repeat;
 	background-attachment: contain;
 	background-size: 100%;
