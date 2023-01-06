@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalouge</title>
+
+    <link href="/dist/output.css" rel="stylesheet">
+	<!-- <link href="build.css" rel="stylesheet"> -->
+
+    <link href="css/product_modal2.css" rel="stylesheet" >
+</head>
+<body>
+    <!-- MODAL -->
+    <div id="myModal" class="modal block fixed z-1 left-0 top-0 w-full h-full overflow-auto bg-gray-900/50 backdrop-blur-sm" >
+        <!-- MODAL CONTENT -->
+        <div class="w-[80vw] h-[140vw] bg-white mx-auto mt-[20vw] rounded-[2vw]">
+            <!-- TITLE  -->
+            <div class="w-[90%] h-[10vw] float-left rounded-[2vw]"></div>
+
+            <!-- CLOSE BTN -->
+            <div class="w-[10%] h-[10vw] float-left rounded-[2vw]">
+                <span class="close text-gray-800 text-[8vw] leading-[6vw] font-bold align-top mt-[1vw] mr-[2vw] float-right cursor-pointer">&times;</span>
+            </div>
+
+            <!-- CONTENT -->
+            <!-- <div class="w-[100%] h-full float-left border-slate-600 border-solid border-[1vw] "> -->
+            <div class="w-[100%] h-full float-left border-slate-600 border-solid p-[4vw]">
+                <h1 class="font-work_sans font-bold uppercase text-fc_red text-[6vw] leading-none text-left float-left drop-shadow-md">
+                    Download Our 2023 Tile Catalouge
+                </h1>
+
+                <!-- <input type="text" name="" id="" class="form-textarea h-[10vw] w-[60vw] bg-slate-400 rounded-[2vw]"> -->
+                <label for="first_name" class="float-left font-work_sans font-medium text-[3vw] text-gray-900 mt-[4vw] w-full">Name</label>
+                <input type="text" id="first_name"
+                class="
+                float-left
+                h-[8vw] w-[100%]
+                bg-gray-50 border border-fc_red 
+                text-gray-900 text-[3vw] rounded-lg font-medium
+                focus:ring-blue-500 focus:border-blue-500"
+                placeholder="Name" required>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+    </div>
+    <!-- NEWSLETTER  -->
+    <div class="w-[100%] h-[20vw] bg-slate-400 shadow-sm float-left"> 
+        <button id="myBtn" class="w-[100%] h-[20vw] bg-gray-200">nav bar</button>
+    </div>
+   
+    <div class="w-full h-[40vw] float-left bg-[url('/src/img/blog.jpg')] bg-[length:100vw_60vw] bg-no-repeat "></div>
+    <div class="w-full h-[40vw] float-left bg-gradient-to-b from-black/70 to-black/30 mt-[-40vw]">
+        <h1 class="font-work_sans font-semibold uppercase text-gray-100 text-[7vw] leading-none text-center float-left align-middle mt-[13vw]">
+            Tips for a proper tile installation
+        </h1>
+    </div>
+    <div class="w-[100%] h-auto bg-slate-100 p-[6vw] float-left">
+        
+        
+        <p class="font-work_sans font-normal text-slate-500 text-[4vw] leading-none">
+            Blog \ Tips for a proper tile installation
+        </p>
+        <br>
+            <div class="w-[100%] h-auto bg-slate-200 p-[6vw] mt-[8vw] float-left" >
+                <h1 class="font-work_sans font-semibold text-slate-800 text-[7vw] leading-none">
+                    Tips for a proper tile installation
+                </h1>
+                <p class="font-work_sans font-normal text-slate-500 text-[4vw] leading-none mt-[2vw]">
+                    Upload: June 18, 2018 <br> Author: Rica Palcon  &nbsp; Views: 682
+                </p>
+                <p class="font-work_sans font-normal text-slate-800 text-[5vw] leading-[7vw] mt-[4vw]">
+                    In order to properly lay tiles, there are various steps needed to be followed. 
+                    Applying tiles is something that most people can do given a proper knowledge of doing so. 
+                    Here are some basic tips to know for laying tiles properly <br><br>
+                    Prepare the surface before applying tiles, make sure that every surface is clean, smooth, dry, wax- free, soap scum-free, and grease-free.
+                    <br><br>
+                    If there are areas to repair, patch, or if there are damaged or uneven surfaces, attend to it first. 
+                    Then, remove any moldings, trim, or appliances that are placed in the surface you want to lay your tiles on.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    } 
+</script>
+
+
+</html>
