@@ -774,6 +774,16 @@ input[type='number']::-webkit-outer-spin-button,
   margin-bottom: auto;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-\[20vw\]{
   margin-top: 20vw;
 }
@@ -844,6 +854,14 @@ input[type='number']::-webkit-outer-spin-button,
 
 .ml-\[2vw\]{
   margin-left: 2vw;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .block{
@@ -1381,6 +1399,14 @@ input[type='number']::-webkit-outer-spin-button,
 
 .p-5{
   padding: 1.25rem;
+}
+
+.p-\[1vw\]{
+  padding: 1vw;
+}
+
+.p-\[2vw\]{
+  padding: 2vw;
 }
 
 .px-4{
