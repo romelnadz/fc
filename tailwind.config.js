@@ -20,6 +20,7 @@ module.exports = {
         '20vw': '20vw',
         '30vw': '30vw',
         '40vw': '40vw',
+        'm_xl': '200px',
        
       }
     },

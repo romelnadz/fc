@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floor Center</title>
-    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
-    <link href="build.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- <link href="build.css" rel="stylesheet"> -->
     
 </head>
 <body>
@@ -19,21 +19,50 @@
     .##...###.##.....##...##.##....##..##....##..##.....##....##.....##..##.....##.##...###....##.....##.##.....##.##....##.
     .##....##.##.....##....###....####..######...##.....##....##....####..#######..##....##....########..##.....##.##.....##
      -->
-    <nav class="flex w-full h-16 px-2 shadow-lg">
+    <nav class="flex w-full h-16 px-2 2xl:px-40 shadow-lg">
         <!-- LOGO RED CONTAINER -->
-        <div class="flex w-20 h-20 bg-fc_red rounded-b-lg">
+        <div class="flex w-20 lg:w-40 h-20 bg-fc_red rounded-b-md">
             <!-- LOGO  -->
             <svg class="mx-auto p-2" id="FC_LOGO_Image" viewBox="0 0 1275.84 1417.44"><rect x="187.7" y="329.3" width="901.45" height="901.45" transform="translate(-364.57 679.89) rotate(-45)" fill="#231f20"/><rect x="189.98" y="189.54" width="895.89" height="895.89" transform="translate(-263.93 637.79) rotate(-45)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M489.98,374.35v159.47h11.17c17.18,0,31.21-2.58,42.09-7.73,10.88-5.15,20.09-13.84,27.63-26.05,7.54-12.21,12.45-28.72,14.74-49.53h10.02v194.98h-10.02c-3.63-36.83-13.51-61.13-29.63-72.87-16.13-11.74-34.41-17.61-54.83-17.61h-11.17v118.82c0,19.85,1.1,32.26,3.29,37.22,2.19,4.97,6.49,9.3,12.88,13.03,6.39,3.72,15.03,5.58,25.91,5.58h12.88v10.59h-202.99v-10.59h12.88c11.26,0,20.33-2,27.2-6.01,4.96-2.67,8.78-7.25,11.45-13.74,2.1-4.58,3.15-16.61,3.15-36.07v-255.39c0-19.85-1.05-32.25-3.15-37.22-2.1-4.96-6.35-9.31-12.74-13.03-6.4-3.72-15.03-5.58-25.91-5.58h-12.88v-10.59h327.54v111.37h-11.74c-2.68-26.15-9.5-45.52-20.47-58.12-10.98-12.6-26.87-21.47-47.67-26.63-11.45-2.86-32.64-4.29-63.56-4.29h-36.07Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M946.58,570.14v134.56h-11.17c-8.4-35.12-24.05-62.03-46.95-80.74-22.91-18.7-48.87-28.06-77.88-28.06-24.24,0-46.48,6.97-66.71,20.9-20.23,13.94-35.03,32.17-44.38,54.69-12.02,28.82-18.04,60.89-18.04,96.2s4.39,66.38,13.17,94.91c8.78,28.54,22.52,50.1,41.23,64.71,18.7,14.6,42.95,21.9,72.72,21.9,24.43,0,46.81-5.34,67.14-16.03,20.33-10.69,41.75-29.1,64.28-55.26v33.5c-21.76,22.72-44.43,39.18-68,49.39-23.58,10.21-51.11,15.32-82.6,15.32-41.42,0-78.21-8.3-110.37-24.91-32.17-16.61-56.98-40.46-74.44-71.58-17.46-31.11-26.2-64.23-26.2-99.35,0-37.03,9.69-72.15,29.06-105.36,19.37-33.21,45.52-58.98,78.45-77.3s67.9-27.49,104.93-27.49c27.29,0,56.12,5.92,86.47,17.75,17.56,6.87,28.72,10.31,33.5,10.31,6.11,0,11.4-2.24,15.89-6.73,4.48-4.48,7.39-11.6,8.73-21.33h11.17Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/></svg>
         </div>
 
-        <!-- NAV RIGHT CONTAINER -->
+        <!-- NAV LIST HIDDEN ON MOBILE -->
+        <div class="hidden justify-center h-16 w-full lg:flex">
+            <div class="flex w-fit h-16 p-4">
+                <button class="self-center px-6 w-full h-10 nav_font hover:bg-slate-100 rounded-full hover:scale-110 ease-in-out duration-100 ">
+                    Our Tiles
+                </button>
+            </div>
+            <div class="flex w-fit h-16 p-4">
+                <button class="self-center px-6 w-full h-10 nav_font hover:bg-slate-100 rounded-full hover:scale-110 ease-in-out duration-100 ">
+                    Sanitary Wares
+                </button>
+            </div>
+            <div class="flex w-fit h-16 p-4">
+                <button class="self-center px-6 w-full h-10 nav_font hover:bg-slate-100 rounded-full hover:scale-110 ease-in-out duration-100 ">
+                   Virtual Showroom
+                </button>
+            </div>
+            <div class="flex w-fit h-16 p-4">
+                <button class="self-center px-6 w-full h-10 nav_font hover:bg-slate-100 rounded-full hover:scale-110 ease-in-out duration-100 ">
+                   Branches
+                </button>
+            </div>
+            <div class="flex w-fit h-16 p-4">
+                <button class="self-center px-6 w-full h-10 nav_font hover:bg-slate-100 rounded-full hover:scale-110 ease-in-out duration-100 ">
+                    About us
+                </button>
+            </div>
+           
+        </div>
+
+        <!-- NAV RIGHT CONTAINER FOR MOBILE-->
         <div class="flex flex-grow flex-row-reverse place-items-end h-16">
-            <div class=" w-16 h-full stroke-gray-600 hover:stroke-gray-900 hover:scale-110 transition duration-150 ease-out hover:ease-in">
+            <div class=" w-16 h-full stroke-gray-600 hover:stroke-gray-900 hover:scale-110 transition duration-150 ease-out hover:ease-in lg:hidden">
                 <svg class="" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17 19H46.1667M17 31.5H46.1667M17 44H46.1667"  stroke-width="3.2" stroke-linecap="round"/>
                 </svg>   
             </div>
-            <!-- class="my-4 mx-auto stroke-slate-500 hover:stroke-slate-900 hover:scale-110 transition duration-150 ease-out hover:ease-in" -->
             <div class=" w-16 h-full stroke-gray-600 hover:stroke-gray-900 hover:scale-110 transition duration-150 ease-out hover:ease-in">
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M35.75 17L47 29M47 29L44.4275 47H19.5725L17 29M47 29H17M17 29L28.25 17" stroke="#454545" stroke-width="3" stroke-linecap="round"/>
@@ -44,8 +73,6 @@
                 <path d="M15 47C21.2005 44.7778 25.1865 42.9259 26.958 41.4444C29.6154 39.2222 21.6434 39.2222 21.6434 28.1111C21.6434 20.7037 25.1865 17 32.2727 17C39.359 17 42.9021 20.7037 42.9021 28.1111C42.9021 39.2222 34.9301 39.2222 37.5874 41.4444C39.359 42.9259 43.345 44.7778 49.5455 47" stroke="#454545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-
-
         </div> 
     </nav>
     <!-- 

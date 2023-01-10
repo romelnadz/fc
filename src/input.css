@@ -24,3 +24,25 @@
             -moz-appearance: textfield !important;
         }
     }         
+
+    @layer components 
+    {
+        .green_border
+        {
+          @apply border-2 border-green-500 border-dashed
+        }
+        .pink_border
+        {
+          @apply border-2 border-pink-500 border-dashed
+        }
+        .blue_border
+        {
+          @apply border-2 border-sky-500 border-solid
+        }
+
+
+        .nav_font
+        {
+            @apply font-work_sans font-semibold text-slate-700 text-[1.2vw] xl:text-lg
+        }
+    }
