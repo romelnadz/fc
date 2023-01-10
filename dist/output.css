@@ -769,6 +769,11 @@ input[type='number']::-webkit-outer-spin-button,
   margin-right: 2vw;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-\[20vw\]{
   margin-top: 20vw;
 }
@@ -1041,8 +1046,18 @@ input[type='number']::-webkit-outer-spin-button,
   width: 75%;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
+
 .-translate-y-\[-1vw\]{
   --tw-translate-y: 1vw;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-110{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1064,6 +1079,14 @@ input[type='number']::-webkit-outer-spin-button,
 
 .flex-row{
   flex-direction: row;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+.place-items-end{
+  place-items: end;
 }
 
 .items-center{
@@ -1265,6 +1288,11 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+.bg-slate-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/src\/img\/blog\.jpg\'\)\]{
   background-image: url('/src/img/blog.jpg');
 }
@@ -1323,6 +1351,10 @@ input[type='number']::-webkit-outer-spin-button,
   background-repeat: no-repeat;
 }
 
+.stroke-slate-500{
+  stroke: #64748b;
+}
+
 .p-\[4vw\]{
   padding: 4vw;
 }
@@ -1341,6 +1373,14 @@ input[type='number']::-webkit-outer-spin-button,
 
 .p-4{
   padding: 1rem;
+}
+
+.p-6{
+  padding: 1.5rem;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .px-4{
@@ -1597,6 +1637,12 @@ input[type='number']::-webkit-outer-spin-button,
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1634,8 +1680,16 @@ input[type='number']::-webkit-outer-spin-button,
   transition-duration: 300ms;
 }
 
+.duration-150{
+  transition-duration: 150ms;
+}
+
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .content-auto 
@@ -1654,6 +1708,12 @@ input[type='number']::-webkit-outer-spin-button,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:scale-50:hover{
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-gray-300:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -1664,8 +1724,38 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-slate-500:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-800:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[url\(\'\/src\/product\/product_thumb_hover1\.png\'\)\]:hover{
   background-image: url('/src/product/product_thumb_hover1.png');
+}
+
+.hover\:fill-white:hover{
+  fill: #fff;
+}
+
+.hover\:fill-slate-100:hover{
+  fill: #f1f5f9;
+}
+
+.hover\:stroke-white:hover{
+  stroke: #fff;
+}
+
+.hover\:stroke-slate-100:hover{
+  stroke: #f1f5f9;
+}
+
+.hover\:stroke-slate-900:hover{
+  stroke: #0f172a;
 }
 
 .hover\:text-gray-700:hover{
@@ -1680,6 +1770,23 @@ input[type='number']::-webkit-outer-spin-button,
 
 .hover\:underline:hover{
   text-decoration-line: underline;
+}
+
+.hover\:invert-0:hover{
+  --tw-invert: invert(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:transition:hover{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:ease-in:hover{
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .focus\:border-blue-500:focus{
