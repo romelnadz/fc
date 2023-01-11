@@ -43,6 +43,7 @@
 
         .nav_font
         {
-            @apply font-work_sans font-semibold text-slate-700 text-[1.2vw] xl:text-lg
+            @apply font-work_sans font-normal text-slate-700 text-base
         }
+        
     }
