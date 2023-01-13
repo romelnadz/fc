@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floor Center</title>
-    <link href="/dist/output.css" rel="stylesheet">
-    <!-- <link href="build.css" rel="stylesheet"> -->
+    <!-- mega_menu -->
+    <link rel="stylesheet" type="text/css" href="css/mega_menu.css">
+    
+    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+    <link href="build.css" rel="stylesheet">
     
 </head>
 <body>
     <header>
+        <!-- 
+        .##....##....###....##.....##....########.....###....########.
+        .###...##...##.##...##.....##....##.....##...##.##...##.....##
+        .####..##..##...##..##.....##....##.....##..##...##..##.....##
+        .##.##.##.##.....##.##.....##....########..##.....##.########.
+        .##..####.#########..##...##.....##.....##.#########.##...##..
+        .##...###.##.....##...##.##......##.....##.##.....##.##....##.
+        .##....##.##.....##....###.......########..##.....##.##.....##
+         -->
+
         <nav class="
+        fixed z-10
         float-left
         bg-white shadow-lg
         w-full h-[64px] tablet:h-[64px]
@@ -22,7 +36,8 @@
             green_border1
             float-left 
             w-20% laptop:w-20%
-            h-16">
+            h-16
+            hover:scale-110 smooth_transition">
                 <!-- RED SQUARE -->
                 <div class="
                 float-left
@@ -37,7 +52,7 @@
             </div>
             <!-- CENTER  -->
             <div class="
-            blue_border
+            blue_border1
             float-left 
             hidden laptop:block laptop:w-60% 
             h-16
@@ -46,19 +61,28 @@
             w-full
             h-16
             flex justify-between
+            py-3
             ">
-                <div class="w-40vw h-16 bg-slate-200 ">
-                    asdasda 
-                </div>
-                <div class="w-40vw h-16 bg-slate-400 ">
-                    dasdas
-                </div>
-                <div class="w-40vw h-16 bg-slate-600 ">
-                    asfdgsd
-                </div>
-                <div class="w-40vw h-16 bg-slate-800 ">
-                    gsfdgsdf
-                </div>
+                <button id="mega_menu_products_btn" class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Products
+                </button>
+                <button class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Sanitary Wares
+                </button>
+                <button class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Virtual Showroom 
+                </button>
+                <button class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Ideas and Blogs
+                </button>
+
+                <button class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Branches
+                </button>
+                
+                <button class="flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                    Contact Us
+                </button>
             </div>
            
                 
@@ -72,20 +96,20 @@
             h-16">
                 <!-- MENU BTN HIDDEN ON BIG-->
                 <div class="float-right w-16 h-16 1bg-purple-300 block laptop:hidden">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20 22H43.3333M20 32H43.3333M20 42H43.3333" stroke="#454545" stroke-width="3.2" stroke-linecap="round"/>
                     </svg>
                 </div>
                 <!-- CART BUTTON -->
                 <div class="float-right w-16 h-16 1bg-purple-900">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M34.625 20L44 30M44 30L41.8562 45H21.1438L19 30M44 30H19M19 30L28.375 20" stroke="#454545" stroke-width="3" stroke-linecap="round"/>
                     </svg>
                 </div>
                 <!-- ACCOUNT BUTTON -->
                 <div class="float-right w-16 h-16 1bg-purple-600">
-                <button class="w-16 h-16 hover:bg-gray-300 hover:scale-110 smooth_transition">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button class="w-16 h-16">
+                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18 44C23.1671 42.1481 26.4887 40.6049 27.965 39.3704C30.1795 37.5185 23.5361 37.5185 23.5361 28.2593C23.5361 22.0864 26.4887 19 32.3939 19C38.2991 19 41.2517 22.0864 41.2517 28.2593C41.2517 37.5185 34.6084 37.5185 36.8228 39.3704C38.2991 40.6049 41.6208 42.1481 46.7879 44" stroke="#454545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </button>
@@ -99,12 +123,191 @@
                 
             </div>
         </nav>
-        <div class="float-left w-full h-16 bg-red-400 tablet:bg-sky-400 laptop:bg-green-400 desktop:bg-amber-400
-        ">
 
-        </div>
-    
+        <!--
+        .##.....##.########..######......###.......##.....##.########.##....##.##.....##
+        .###...###.##.......##....##....##.##......###...###.##.......###...##.##.....##
+        .####.####.##.......##.........##...##.....####.####.##.......####..##.##.....##
+        .##.###.##.######...##...####.##.....##....##.###.##.######...##.##.##.##.....##
+        .##.....##.##.......##....##..#########....##.....##.##.......##..####.##.....##
+        .##.....##.##.......##....##..##.....##....##.....##.##.......##...###.##.....##
+        .##.....##.########..######...##.....##....##.....##.########.##....##..#######.
+         -->
+
+        <!-- MEGA MENU NEW -->
+        <!-- MEGA MENU DESKTOP MODAL-->
+            <div id="mega_menu_products_modal" class="mega_menu_products_modal">
+
+                <!-- MEGA MENU DESKTOP CONTENT -->
+                    <div class="mega_menu_products_modal_content">
+                        <div class="menu_m_l"></div>
+                            <div class="menu_center">
+                                <!-- radio buttons hidden -->
+                                    
+                                        <input class="radio hidden" id="one" name="group" type="radio" checked>
+                                        <input class="radio hidden" id="two" name="group" type="radio">
+                                        <input class="radio hidden" id="three" name="group" type="radio">
+                                        <input class="radio hidden" id="four" name="group" type="radio">
+                                        <input class="radio hidden" id="five" name="group" type="radio">
+                                        <input class="radio hidden" id="six" name="group" type="radio">
+                                    
+
+                                
+                                <div class="tab_nav">
+                                    <h1 class="tab_nav_header font-bold text-2xl"> Browse by<br>Categories</h1>
+                                    <label class="tab font-semibold text-lg" id="two-tab" for="two">Material</label>
+                                    <label class="tab font-semibold text-lg" id="three-tab" for="three">Finish</label>
+                                    <label class="tab font-semibold text-lg" id="one-tab" for="one">Shape and Sizes</label>
+                                    <label class="tab font-semibold text-lg" id="four-tab" for="four">Color</label>
+                                    <label class="tab font-semibold text-lg" id="five-tab" for="five">Application</label>
+                                    <label class="tab font-semibold text-lg" id="six-tab" for="six">Others</label>
+                                </div>
+                                
+                                <div class="panels">
+                                    <div class="panel" id="one-panel">
+                                        <div class="panel_img1">
+                                            
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="panel" id="two-panel">
+                                        <!-- <div style=" width: 100%;height:0vw;"><br></div> -->
+
+                                        <div class="panel_img2"> </div>
+
+                                         <!-- <div style=" width: 100%;height:80vw;"><br></div> -->
+                                    </div>
+                                    <div class="panel" id="three-panel">
+
+                                        <div class="panel_img3"></div>
+                                        <!-- <div style=" width: 100%;height:60vw;"><br></div> -->
+
+                                    </div>
+                                    <div class="panel" id="four-panel">
+                                        <div class="panel-title">Title4</div>
+                                        <p>Content4</p>
+                                    </div>
+                                    <div class="panel" id="five-panel">
+                                        <div class="panel-title">Title5</div>
+                                        <p>Content5</p>
+                                    </div>
+                                    <div class="panel" id="six-panel">
+                                        <div class="panel-title">Title6</div>
+                                        <p>Content6</p>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        <div class="menu_m_r"><span class="close">&times;</span></div>
+                    </div>
+                <!-- MEGA MENU DESKTOP CONTENT END -->
+
+            </div>
+        <!-- MEGA MENU DESKTOP MODAL END-->
+
+        <!-- MEGA MENU DESKTOP MODAL SCRIPT-->
+            <script>
+            // Get the modal
+            var modal = document.getElementById("mega_menu_products_modal");
+
+            // Get the button that opens the modal
+            var products_btn = document.getElementById("mega_menu_products_btn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            products_btn.onclick = function() {
+              modal.style.display = "block";
+            }
+           
+            // // When the user clicks the button, open the modal 
+            // other_btn1.onclick = function() {
+            //   modal.style.display = "none";
+            // }
+            // // When the user clicks the button, open the modal 
+            // other_btn2.onclick = function() {
+            //   modal.style.display = "none";
+            // }
+            // // When the user clicks the button, open the modal 
+            // other_btn3.onclick = function() {
+            //   modal.style.display = "none";
+            // }
+            // // When the user clicks the button, open the modal 
+            // other_btn4.onclick = function() {
+            //   modal.style.display = "none";
+            // }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+        <!-- MEGA MENU DESKTOP MODAL SCRIPT END-->
+
+        <!-- MEGA MENU MOBILE MODAL-->
+            <div id="mega_menu_products_modal_mobile" class="mega_menu_products_modal_mobile">
+
+                <!-- MEGA MENU MOBILE CONTENT -->
+                    <!-- <div class="mega_menu_products_modal_mobile_content">
+                        <div class="menu_m_l"></div>
+                            <div class="menu_center">
+                    
+                            </div>
+                        <div class="menu_m_r"><span class="close">&times;</span></div>
+                    </div> -->
+                <!-- MEGA MENU MOBILE CONTENT END -->
+
+            </div>
+        <!-- MEGA MENU MOBILE MODAL END-->
+
+        <!-- MEGA MENU MOBILE MODAL SCRIPT-->
+            <script>
+            // Get the modal
+            var modal_mobile = document.getElementById("mega_menu_products_modal_mobile");
+
+            // Get the button that opens the modal
+            var menu_btn_mobile = document.getElementById("menu_btn_mobile");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            menu_btn_mobile.onclick = function() {
+              modal.style.display = "block";
+            }
+           
+            // When the user clicks the button, open the modal 
+            other_btn1.onclick = function() {
+              modal.style.display = "none";
+            }
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+        <!-- MEGA MENU MOBILE MODAL SCRIPT END-->
+
+    <!-- MEGA MENU NEW -->
     </header>
+
+    <div class="float-left w-full h-[100vw] bg-red-400 tablet:bg-sky-400 laptop:bg-green-400 desktop:bg-amber-400">
+
+    </div>
      
     
 </body>
