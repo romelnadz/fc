@@ -8,8 +8,9 @@
     <!-- mega_menu -->
     <link rel="stylesheet" type="text/css" href="css/mega_menu.css">
     
-    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
-    <link href="build.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/css/carousel.css" rel="stylesheet">
+    <!-- <link href="build.css" rel="stylesheet"> -->
 
     <script src="index.min.js"></script>
     
@@ -340,7 +341,7 @@
     ..######..##.....##.##.....##..#######...#######...######..########.########
      -->
    
-    <div class="w-full float-left carousel slide green_border " data-bs-ride="carousel" id="carouselExampleIndicators">
+    <div class="w-full h-80 mt-5 float-left carousel overflow-hidden" data-bs-ride="carousel" id="carouselExampleIndicators">
        <!-- 
         ..######..##.......####.########..########..######.
         .##....##.##........##..##.....##.##.......##....##
@@ -350,15 +351,16 @@
         .##....##.##........##..##.....##.##.......##....##
         ..######..########.####.########..########..######.
         -->
-            <div class="h-40vw w-full float-left px-4 laptop:px-8 desktop:px-60 blude_border carousel-inner overflow-hidden">
-                <div class="carousel-item float-left w-full h-full active">
-                    <img src="src/img/slide/slide1.jpg" class="block w-full h-full" alt="slide"/>
+        <!-- data-bs-slide-to   INTERVAL -->
+            <div class="h-40vw w-full float-left px-4 laptop:px-8 desktop:px-80 overflow-clip carousel-inner">
+                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-br from-slate-700 to-blue-200 active">
+                    <!-- <img src="src/img/slide/slide1.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
                 </div>
-                <div class="carousel-item float-left w-full h-full">
-                    <img src="src/img/slide/slide2.jpg" class="block w-full h-full" alt="slide"/>
+                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-bl from-blue-200 to-slate-500">
+                    <!-- <img src="src/img/slide/slide2.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
                 </div>
-                <div class="carousel-item float-left w-full h-full">
-                    <img src="src/img/slide/slide3.jpg" class="block w-full h-full" alt="slide"/>
+                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-t from-slate-500 to-blue-200 ">
+                    <!-- <img src="src/img/slide/slide3.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
                 </div>
             </div>
        
@@ -371,32 +373,36 @@
         .##....##.##.....##.##...###....##....##....##..##.....##.##.......##....##
         ..######...#######..##....##....##....##.....##..#######..########..######.
         -->
-            <div class="h-full w-full float-left px-4 laptop:px-8 desktop:px-60 pidnk_border -translate-y-40vw">
-                <div class="float-left w-20%">
+            <div class="h-80 w-full float-left px-4 laptop:px-8 desktop:px-80 pidnk_border -translate-y-40vw">
+                <div class="float-left w-10%">
                     <button
-                        class="carousel-control-prev h-40vw bg-green-500 flex w-full items-center justify-center"
+                        class="carousel-control-prev h-80 flex w-full items-center justify-center"
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <svg class="hover:scale-110 smooth_transition" width="30" height="49" viewBox="0 0 25 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2.62561L0.312808 24.3128L22 46" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
                     </button>
                 </div>
-                <div class="float-left w-60%">
-                    <div class="carousel-indicators flex justify-center bottom-0 bg-orange-400/10 w-full m-0 h-full">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" ></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="float-left w-80%">
+                    <div class="carousel-indicators flex items-end justify-center w-full m-0 h-80">
+                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 active"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"  aria-current="true" ></button>
+                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
                     </div>
                 </div>
-                <div class="float-left w-20%">
+                <div class="float-left w-10%">
                     <button
-                        class="carousel-control-next h-40vw bg-green-500 flex w-full items-center justify-center"
+                        class="carousel-control-next h-80 flex w-full items-center justify-center"
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide="next">
-                            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <svg class="hover:scale-110 smooth_transition" width="30" height="49" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 46L24.6872 24.3128L3 2.62562" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
                     </button>
                 </div>
             </div>
