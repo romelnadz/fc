@@ -4,6 +4,7 @@ module.exports = {
   [
     './src/**/*.{html,js}',
     './*.{html,js}',
+    './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     extend: {
@@ -70,7 +71,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('tw-elements/dist/plugin')
   ],
 }
 // '1': '8px',

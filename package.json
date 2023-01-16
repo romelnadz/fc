@@ -7,5 +7,8 @@
     "build": "tailwindcss build -i ./dist/output.css -o build.css",
     "minify": "npx tailwindcss -o build.css --minify",
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha13"
   }
 }

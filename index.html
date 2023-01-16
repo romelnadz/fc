@@ -10,6 +10,8 @@
     
     <!-- <link href="/dist/output.css" rel="stylesheet"> -->
     <link href="build.css" rel="stylesheet">
+
+    <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
     
 </head>
 <body>
@@ -310,7 +312,7 @@
             <!-- LEFT -->
             <div class="laptop:float-left w-full h-fit flex justify-center laptop:w-50% laptop:h-80 pink_border1 ">
                 <div class="float-right flex-row align-middle w-fit">
-                        <h1 class="mt-10 text-3xl whitespace-nowrap leading-none tablet:text-5xl text-slate-600 font-semibold drop-shadow-md">The Leading Tile Supplier <br>In the Philippines</h1>
+                        <h1 class="mt-6 tablet:mt-10 text-4xl tablet:text-5xl whitespace-normal tablet:whitespace-nowrap leading-none text-slate-600 font-semibold drop-shadow-md">The Leading Tile Supplier <br>In the Philippines</h1>
                         <h2 class="mt-4 text-xl leading-none text-slate-600 font-medium drop-shadow-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Qui eius ratione sunt laboriosam! Hic, distinctio?</h1>
                         <button class="mt-6 bg-fc_red px-8 h-12 text-lg font-semibold text-white rounded-full shadow-md 
                         hover:bg-slate-400 hover:text-slate-800 hover:scale-110 transition duration-150 ease-in-out" type="submit">Shop Now</button>
@@ -326,6 +328,96 @@
                 
             </div>
         </div>
+    </div>
+
+    <!-- 
+    ..######.....###....########...#######..##.....##..######..########.##......
+    .##....##...##.##...##.....##.##.....##.##.....##.##....##.##.......##......
+    .##........##...##..##.....##.##.....##.##.....##.##.......##.......##......
+    .##.......##.....##.########..##.....##.##.....##..######..######...##......
+    .##.......#########.##...##...##.....##.##.....##.......##.##.......##......
+    .##....##.##.....##.##....##..##.....##.##.....##.##....##.##.......##......
+    ..######..##.....##.##.....##..#######...#######...######..########.########
+     -->
+   
+    <div class="w-full float-left h-full carousel slide green_border " data-bs-ride="carousel" id="carouselExampleIndicators">
+       <!-- 
+        ..######..##.......####.########..########..######.
+        .##....##.##........##..##.....##.##.......##....##
+        .##.......##........##..##.....##.##.......##......
+        ..######..##........##..##.....##.######....######.
+        .......##.##........##..##.....##.##.............##
+        .##....##.##........##..##.....##.##.......##....##
+        ..######..########.####.########..########..######.
+        -->
+            <div class="h-40vw w-full float-left px-4 laptop:px-8 desktop:px-60 blue_border carousel-inner">
+                <div class="carousel-item float-left w-full h-full active">
+                    <img src="src/img/slide/slide1.png" class="block w-full h-full"  alt="Wild Landscape"/>
+                </div>
+                <div class="carousel-item float-left w-full h-full">
+                    <img src="src/img/slide/slide2.png" class="block w-full h-full" alt="Camera"/>
+                </div>
+                <div class="carousel-item float-left w-full h-full">
+                    <img src="src/img/slide/slide3.png" class="block w-full h-full" alt="Exotic Fruits"  />
+                </div>
+            </div>
+       
+        <!--
+        ..######...#######..##....##.########.########...#######..##........######.
+        .##....##.##.....##.###...##....##....##.....##.##.....##.##.......##....##
+        .##.......##.....##.####..##....##....##.....##.##.....##.##.......##......
+        .##.......##.....##.##.##.##....##....########..##.....##.##........######.
+        .##.......##.....##.##..####....##....##...##...##.....##.##.............##
+        .##....##.##.....##.##...###....##....##....##..##.....##.##.......##....##
+        ..######...#######..##....##....##....##.....##..#######..########..######.
+        -->
+            <div class="h-full w-full float-left px-4 laptop:px-8 desktop:px-60 pink_border -translate-y-40vw">
+                <div class="float-left w-20%">
+                    <button
+                        class="carousel-control-prev h-40vw bg-green-500 flex w-full items-center justify-center"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                    </button>
+                </div>
+                <div class="float-left w-60%">
+                    <div class="carousel-indicators flex justify-center bottom-0 bg-orange-400/10 w-full m-0 h-full">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" ></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <div class="float-left w-20%">
+                    <button
+                        class="carousel-control-next h-40vw bg-green-500 flex w-full items-center justify-center"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        
+       
+    </div>
+
+   
+    
+    
+    <!-- 
+    ..######.....###....########...#######..##.....##..######..########.##......
+    .##....##...##.##...##.....##.##.....##.##.....##.##....##.##.......##......
+    .##........##...##..##.....##.##.....##.##.....##.##.......##.......##......
+    .##.......##.....##.########..##.....##.##.....##..######..######...##......
+    .##.......#########.##...##...##.....##.##.....##.......##.##.......##......
+    .##....##.##.....##.##....##..##.....##.##.....##.##....##.##.......##......
+    ..######..##.....##.##.....##..#######...#######...######..########.########
+     -->
+
     <div class="h-[100vw] w-full">
 
     </div>
