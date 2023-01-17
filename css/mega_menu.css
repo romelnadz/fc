@@ -101,77 +101,13 @@
 */
 
 /* Modal Content */
-.mega_menu_products_modal_content {
+.mega_menu_anim {
   
-  /*z-index:3 ; */
-  position: relative;
-  background-color: #fff;
-  /*background-color: blue;*/
-  backdrop-filter: blur(5px);
-  margin: auto;
-  float: right;
-  padding: 0;
-  /*border-radius: 2vw;*/
-  width: 80%;
-  height: 100%;
-  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
- 
- -webkit-animation-name: animateside;
+  -webkit-animation-name: animatetop;
    -webkit-animation-duration: 0.4s;
-   animation-name: animateside;
+   animation-name: animatetop;
    animation-duration: 0.4s
 }
-
-@media only screen and (min-width: 480px)
-{
-            /* Modal Content */
-            .mega_menu_products_modal_content 
-            {
-              
-              position: relative;
-              background-color: #fff;
-              /*background-color: blue;*/
-              backdrop-filter: blur(5px);
-              margin: auto;
-              float: none;
-              padding: 0;
-              border-radius: 1vw;
-              width: 80%;
-              height: 25vw;
-              /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
-             
-             -webkit-animation-name: animatetop;
-               -webkit-animation-duration: 0.4s;
-               animation-name: animatetop;
-               animation-duration: 0.4s
-            }
-}
-
-@media only screen and (min-width: 1440px)
-{
-                        /* Modal Content */
-                        .mega_menu_products_modal_content 
-                        {
-                          
-                          position: relative;
-                          background-color: #fff;
-                          /*background-color: blue;*/
-                          backdrop-filter: blur(5px);
-                          margin: auto;
-                          float: none;
-                          padding: 0;
-                          border-radius: 1vw;
-                          width: 60%;
-                          height: 18vw;
-                          /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
-                         
-                         -webkit-animation-name: animatetop;
-                           -webkit-animation-duration: 0.4s;
-                           animation-name: animatetop;
-                           animation-duration: 0.4s
-                        }
-}
-
 
 /*//..........................................................................................................
 //.....CCCCCC....LLL...........OOOOOO.......SSSSSS....EEEEEEEEEE.......BBBBBBBBB....TTTTTTTTTTNNNNN....NNN..
@@ -281,13 +217,26 @@
 }
 */
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
+  from {top:-320px; opacity:0}
   to {top:0; opacity:1}
+}
+
+@keyframes animateclose {
+  from {top:0; opacity:1}
+  to {top:-320px; opacity:0}
 }
 
 @keyframes animateside{
   from {right:-300px; opacity:0}
   to {right:0; opacity:1}
+}
+
+.close_anim
+{
+  -webkit-animation-name: animateclose;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animateclose;
+   animation-duration: 0.4s
 }
 
 

@@ -10,6 +10,7 @@
     
     <link href="/dist/output.css" rel="stylesheet">
     <link href="/css/carousel.css" rel="stylesheet">
+    <!-- <link href="/css/bs_carousel.css" rel="stylesheet"> -->
     <!-- <link href="build.css" rel="stylesheet"> -->
 
     <script src="index.min.js"></script>
@@ -26,103 +27,77 @@
         .##...###.##.....##...##.##......##.....##.##.....##.##....##.
         .##....##.##.....##....###.......########..##.....##.##.....##
          -->
-
-        <nav class="
-        fixed z-10
-        float-left
-        bg-white shadow-lg
-        w-full h-[64px] tablet:h-[64px]
-        px-2 laptop:px-8 desktop:px-60
-        ">
-            <!-- LOGO LEFT -->
-            <div class="
-            green_border1
-            float-left 
-            w-20% laptop:w-20%
-            h-16">
-                <!-- RED SQUARE -->
-                <div class="
-                float-left
-                h-16
-                w-16 laptop:w-40
-                bg-fc_red smooth_transition hover:translate-y-1">
-                    <!-- LOGO  -->
-                    <svg class="h-16 mx-auto p-1" id="FC_LOGO_Image" viewBox="0 0 1275.84 1417.44"><rect x="187.7" y="329.3" width="901.45" height="901.45" transform="translate(-364.57 679.89) rotate(-45)" fill="#231f20"/><rect x="189.98" y="189.54" width="895.89" height="895.89" transform="translate(-263.93 637.79) rotate(-45)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M489.98,374.35v159.47h11.17c17.18,0,31.21-2.58,42.09-7.73,10.88-5.15,20.09-13.84,27.63-26.05,7.54-12.21,12.45-28.72,14.74-49.53h10.02v194.98h-10.02c-3.63-36.83-13.51-61.13-29.63-72.87-16.13-11.74-34.41-17.61-54.83-17.61h-11.17v118.82c0,19.85,1.1,32.26,3.29,37.22,2.19,4.97,6.49,9.3,12.88,13.03,6.39,3.72,15.03,5.58,25.91,5.58h12.88v10.59h-202.99v-10.59h12.88c11.26,0,20.33-2,27.2-6.01,4.96-2.67,8.78-7.25,11.45-13.74,2.1-4.58,3.15-16.61,3.15-36.07v-255.39c0-19.85-1.05-32.25-3.15-37.22-2.1-4.96-6.35-9.31-12.74-13.03-6.4-3.72-15.03-5.58-25.91-5.58h-12.88v-10.59h327.54v111.37h-11.74c-2.68-26.15-9.5-45.52-20.47-58.12-10.98-12.6-26.87-21.47-47.67-26.63-11.45-2.86-32.64-4.29-63.56-4.29h-36.07Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M946.58,570.14v134.56h-11.17c-8.4-35.12-24.05-62.03-46.95-80.74-22.91-18.7-48.87-28.06-77.88-28.06-24.24,0-46.48,6.97-66.71,20.9-20.23,13.94-35.03,32.17-44.38,54.69-12.02,28.82-18.04,60.89-18.04,96.2s4.39,66.38,13.17,94.91c8.78,28.54,22.52,50.1,41.23,64.71,18.7,14.6,42.95,21.9,72.72,21.9,24.43,0,46.81-5.34,67.14-16.03,20.33-10.69,41.75-29.1,64.28-55.26v33.5c-21.76,22.72-44.43,39.18-68,49.39-23.58,10.21-51.11,15.32-82.6,15.32-41.42,0-78.21-8.3-110.37-24.91-32.17-16.61-56.98-40.46-74.44-71.58-17.46-31.11-26.2-64.23-26.2-99.35,0-37.03,9.69-72.15,29.06-105.36,19.37-33.21,45.52-58.98,78.45-77.3s67.9-27.49,104.93-27.49c27.29,0,56.12,5.92,86.47,17.75,17.56,6.87,28.72,10.31,33.5,10.31,6.11,0,11.4-2.24,15.89-6.73,4.48-4.48,7.39-11.6,8.73-21.33h11.17Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/></svg>
-
+        
+        <nav class="flex fixed z-20 w-full bg-white h-16">
+            <div class="flex bg-white justify-between w-full mx-auto laptop:w-[1400px] h-[64px] tablet:h-[64px] px-2">
+                <!-- LOGO LEFT -->
+                <!-- <div class="float-left w-20% laptop:w-15% h-16"> -->
+                <div class=" h-16">
+                    <!-- RED SQUARE -->
+                    <div class=" float-left h-16 w-16 laptop:w-40 bg-fc_red smooth_transition hover:translate-y-1">
+                        <!-- LOGO  -->
+                        <svg class="h-16 mx-auto p-1" id="FC_LOGO_Image" viewBox="0 0 1275.84 1417.44"><rect x="187.7" y="329.3" width="901.45" height="901.45" transform="translate(-364.57 679.89) rotate(-45)" fill="#231f20"/><rect x="189.98" y="189.54" width="895.89" height="895.89" transform="translate(-263.93 637.79) rotate(-45)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M489.98,374.35v159.47h11.17c17.18,0,31.21-2.58,42.09-7.73,10.88-5.15,20.09-13.84,27.63-26.05,7.54-12.21,12.45-28.72,14.74-49.53h10.02v194.98h-10.02c-3.63-36.83-13.51-61.13-29.63-72.87-16.13-11.74-34.41-17.61-54.83-17.61h-11.17v118.82c0,19.85,1.1,32.26,3.29,37.22,2.19,4.97,6.49,9.3,12.88,13.03,6.39,3.72,15.03,5.58,25.91,5.58h12.88v10.59h-202.99v-10.59h12.88c11.26,0,20.33-2,27.2-6.01,4.96-2.67,8.78-7.25,11.45-13.74,2.1-4.58,3.15-16.61,3.15-36.07v-255.39c0-19.85-1.05-32.25-3.15-37.22-2.1-4.96-6.35-9.31-12.74-13.03-6.4-3.72-15.03-5.58-25.91-5.58h-12.88v-10.59h327.54v111.37h-11.74c-2.68-26.15-9.5-45.52-20.47-58.12-10.98-12.6-26.87-21.47-47.67-26.63-11.45-2.86-32.64-4.29-63.56-4.29h-36.07Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/><path d="M946.58,570.14v134.56h-11.17c-8.4-35.12-24.05-62.03-46.95-80.74-22.91-18.7-48.87-28.06-77.88-28.06-24.24,0-46.48,6.97-66.71,20.9-20.23,13.94-35.03,32.17-44.38,54.69-12.02,28.82-18.04,60.89-18.04,96.2s4.39,66.38,13.17,94.91c8.78,28.54,22.52,50.1,41.23,64.71,18.7,14.6,42.95,21.9,72.72,21.9,24.43,0,46.81-5.34,67.14-16.03,20.33-10.69,41.75-29.1,64.28-55.26v33.5c-21.76,22.72-44.43,39.18-68,49.39-23.58,10.21-51.11,15.32-82.6,15.32-41.42,0-78.21-8.3-110.37-24.91-32.17-16.61-56.98-40.46-74.44-71.58-17.46-31.11-26.2-64.23-26.2-99.35,0-37.03,9.69-72.15,29.06-105.36,19.37-33.21,45.52-58.98,78.45-77.3s67.9-27.49,104.93-27.49c27.29,0,56.12,5.92,86.47,17.75,17.56,6.87,28.72,10.31,33.5,10.31,6.11,0,11.4-2.24,15.89-6.73,4.48-4.48,7.39-11.6,8.73-21.33h11.17Z" fill="#bf1901" stroke="#231f20" stroke-miterlimit="10" stroke-width="5"/></svg>
+                    </div>
                 </div>
 
-            </div>
-            <!-- CENTER  -->
-            <div class="
-            blue_border1
-            float-left 
-            hidden laptop:block laptop:w-60% 
-            h-16
-            ">
-            <div class="
-            w-full
-            h-16
-            flex justify-between
-            py-3
-            ">
-                <button id="mega_menu_products_btn" class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Products
-                </button>
-                <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Sanitary Wares
-                </button>
-                <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Virtual Showroom 
-                </button>
-                <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Ideas and Blogs
-                </button>
+                <!-- CENTER  -->
+                <!-- <div class="float-left hidden laptop:block laptop:w-65% h-16"> -->
+                <div class="flex-grow mx-16 hidden laptop:block h-16">
+                <div class=" w-full h-16 flex justify-between py-3 ">
+                    <button id="mega_menu_products_btn" class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Products
+                    </button>
+                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Sanitary Wares
+                    </button>
+                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Virtual Showroom 
+                    </button>
+                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Ideas and Blogs
+                    </button>
 
-                <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Branches
-                </button>
-                
-                <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                    Contact Us
-                </button>
-            </div>
-           
-                
-                
-            </div>
-            <!-- LOGIN RIGHT -->
-            <div class="
-            pink_borderD
-            float-left 
-            w-80% laptop:w-20%
-            h-16">
-                <!-- MENU BTN HIDDEN ON BIG-->
-                <div class="float-right w-16 h-16 1bg-purple-300 block laptop:hidden">
-                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 22H43.3333M20 32H43.3333M20 42H43.3333" stroke="#454545" stroke-width="3.2" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <!-- CART BUTTON -->
-                <div class="float-right w-16 h-16 1bg-purple-900">
-                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M34.625 20L44 30M44 30L41.8562 45H21.1438L19 30M44 30H19M19 30L28.375 20" stroke="#454545" stroke-width="3" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <!-- ACCOUNT BUTTON -->
-                <div class="float-right w-16 h-16 1bg-purple-600">
-                <button class="w-16 h-16">
-                    <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18 44C23.1671 42.1481 26.4887 40.6049 27.965 39.3704C30.1795 37.5185 23.5361 37.5185 23.5361 28.2593C23.5361 22.0864 26.4887 19 32.3939 19C38.2991 19 41.2517 22.0864 41.2517 28.2593C41.2517 37.5185 34.6084 37.5185 36.8228 39.3704C38.2991 40.6049 41.6208 42.1481 46.7879 44" stroke="#454545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-                </div>
-                <!-- SIGN UP -->
-                <div class="float-right px-2 w-28 desktop:w-28 h-16 1bg-sky-300 hidden laptop:block">
-                    <button class="h-10 my-3 w-full rounded-full font-semibold text-gray-800 text-sm bg-gray-100 hover:bg-gray-200">
-                        Sign In
+                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Branches
+                    </button>
+                    
+                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                        Contact Us
                     </button>
                 </div>
-                
+                </div>
+
+                <!-- LOGIN RIGHT -->
+                <!-- <div class=" float-left w-80% laptop:w-20% h-16"> -->
+                <div class="h-16">
+                    <!-- MENU BTN HIDDEN ON BIG-->
+                    <div class="float-right w-16 h-16 1bg-purple-300 block laptop:hidden" id="mega_menu_products_btn_mobile">
+                        <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 22H43.3333M20 32H43.3333M20 42H43.3333" stroke="#454545" stroke-width="3.2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <!-- CART BUTTON -->
+                    <div class="float-right w-16 h-16 1bg-purple-900">
+                        <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M34.625 20L44 30M44 30L41.8562 45H21.1438L19 30M44 30H19M19 30L28.375 20" stroke="#454545" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <!-- ACCOUNT BUTTON -->
+                    <div class="float-right w-16 h-16 1bg-purple-600">
+                    <button class="w-16 h-16">
+                        <svg class="hover:scale-110 smooth_transition" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 44C23.1671 42.1481 26.4887 40.6049 27.965 39.3704C30.1795 37.5185 23.5361 37.5185 23.5361 28.2593C23.5361 22.0864 26.4887 19 32.3939 19C38.2991 19 41.2517 22.0864 41.2517 28.2593C41.2517 37.5185 34.6084 37.5185 36.8228 39.3704C38.2991 40.6049 41.6208 42.1481 46.7879 44" stroke="#454545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    </div>
+                    <!-- SIGN UP -->
+                    <div class="float-right px-2 w-28 desktop:w-28 h-16 1bg-sky-300 hidden laptop:block">
+                        <button class="h-10 my-3 w-full rounded-full font-semibold text-gray-800 text-sm bg-gray-100 hover:bg-gray-200">
+                            Sign In
+                        </button>
+                    </div>
+                    
+                </div>
             </div>
         </nav>
 
@@ -135,202 +110,179 @@
         .##.....##.##.......##....##..##.....##....##.....##.##.......##...###.##.....##
         .##.....##.########..######...##.....##....##.....##.########.##....##..#######.
          -->
+        <div id="mega_menu_products_modal" class="flex justify-center w-full h-full pt-20 hidden fixed z-10 backdrop-blur-sm bg-slate-800/50">
 
-        <!-- MEGA MENU NEW -->
-        <!-- MEGA MENU DESKTOP MODAL-->
-            <div id="mega_menu_products_modal" class="mega_menu_products_modal">
-
-                <!-- MEGA MENU DESKTOP CONTENT -->
-                    <div class="mega_menu_products_modal_content">
-                        <div class="menu_m_l"></div>
-                            <div class="menu_center">
-                                <!-- radio buttons hidden -->
-                                    
-                                        <input class="radio hidden" id="one" name="group" type="radio" checked>
-                                        <input class="radio hidden" id="two" name="group" type="radio">
-                                        <input class="radio hidden" id="three" name="group" type="radio">
-                                        <input class="radio hidden" id="four" name="group" type="radio">
-                                        <input class="radio hidden" id="five" name="group" type="radio">
-                                        <input class="radio hidden" id="six" name="group" type="radio">
-                                    
-
-                                
-                                <div class="tab_nav">
-                                    <h1 class="tab_nav_header font-bold text-2xl"> Browse by<br>Categories</h1>
-                                    <label class="tab font-semibold text-lg" id="two-tab" for="two">Material</label>
-                                    <label class="tab font-semibold text-lg" id="three-tab" for="three">Finish</label>
-                                    <label class="tab font-semibold text-lg" id="one-tab" for="one">Shape and Sizes</label>
-                                    <label class="tab font-semibold text-lg" id="four-tab" for="four">Color</label>
-                                    <label class="tab font-semibold text-lg" id="five-tab" for="five">Application</label>
-                                    <label class="tab font-semibold text-lg" id="six-tab" for="six">Others</label>
-                                </div>
-                                
-                                <div class="panels">
-                                    <div class="panel" id="one-panel">
-                                        <div class="panel_img1">
-                                            
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="panel" id="two-panel">
-                                        <!-- <div style=" width: 100%;height:0vw;"><br></div> -->
-
-                                        <div class="panel_img2"> </div>
-
-                                         <!-- <div style=" width: 100%;height:80vw;"><br></div> -->
-                                    </div>
-                                    <div class="panel" id="three-panel">
-
-                                        <div class="panel_img3"></div>
-                                        <!-- <div style=" width: 100%;height:60vw;"><br></div> -->
-
-                                    </div>
-                                    <div class="panel" id="four-panel">
-                                        <div class="panel-title">Title4</div>
-                                        <p>Content4</p>
-                                    </div>
-                                    <div class="panel" id="five-panel">
-                                        <div class="panel-title">Title5</div>
-                                        <p>Content5</p>
-                                    </div>
-                                    <div class="panel" id="six-panel">
-                                        <div class="panel-title">Title6</div>
-                                        <p>Content6</p>
-                                    </div>
-                                </div>
-                                
-
-                            </div>
-                        <div class="menu_m_r"><span class="close">&times;</span></div>
-                    </div>
-                <!-- MEGA MENU DESKTOP CONTENT END -->
-
-            </div>
-        <!-- MEGA MENU DESKTOP MODAL END-->
-
-        <!-- MEGA MENU DESKTOP MODAL SCRIPT-->
-            <script>
-            // Get the modal
-            var modal = document.getElementById("mega_menu_products_modal");
-
-            // Get the button that opens the modal
-            var products_btn = document.getElementById("mega_menu_products_btn");
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks the button, open the modal 
-            products_btn.onclick = function() {
-              modal.style.display = "block";
-            }
-           
-            // // When the user clicks the button, open the modal 
-            // other_btn1.onclick = function() {
-            //   modal.style.display = "none";
-            // }
-            // // When the user clicks the button, open the modal 
-            // other_btn2.onclick = function() {
-            //   modal.style.display = "none";
-            // }
-            // // When the user clicks the button, open the modal 
-            // other_btn3.onclick = function() {
-            //   modal.style.display = "none";
-            // }
-            // // When the user clicks the button, open the modal 
-            // other_btn4.onclick = function() {
-            //   modal.style.display = "none";
-            // }
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-              modal.style.display = "none";
-            }
-
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-              if (event.target == modal) {
-                modal.style.display = "none";
-              }
-            }
-            </script>
-        <!-- MEGA MENU DESKTOP MODAL SCRIPT END-->
-
-        <!-- MEGA MENU MOBILE MODAL-->
-            <div id="mega_menu_products_modal_mobile" class="mega_menu_products_modal_mobile">
-
-                <!-- MEGA MENU MOBILE CONTENT -->
-                    <!-- <div class="mega_menu_products_modal_mobile_content">
-                        <div class="menu_m_l"></div>
-                            <div class="menu_center">
+            <!-- MEGA MENU DESKTOP CONTENT -->
+                <!-- <div class="mega_menu_products_modal_content"> -->
+                <div class="mega_menu_anim flex mx-auto h-96 w-[1400px] relative bg-white backdrop-blur-md rounded-2xl">
                     
+                    <div class="flex-row flex flex-grow px-16 py-8">
+                        <!-- radio buttons hidden -->
+                            
+                                <input class="radio hidden" id="one" name="group" type="radio" checked>
+                                <input class="radio hidden" id="two" name="group" type="radio">
+                                <input class="radio hidden" id="three" name="group" type="radio">
+                                <input class="radio hidden" id="four" name="group" type="radio">
+                                <input class="radio hidden" id="five" name="group" type="radio">
+                                <input class="radio hidden" id="six" name="group" type="radio">
+                            
+
+                        <!-- SIDE TAB -->
+                        <div class="flex-shrink h-80">
+                            <h1 class="font-bold text-2xl text-slate-700 drop-shadow-md"> Browse by<br>Categories</h1>
+                            <div class="tab_nav flex flex-col justify-start w-40 pt-4">
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="two-tab" for="two">Material</label>
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="three-tab" for="three">Finish</label>
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="one-tab" for="one">Shape and Sizes</label>
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="four-tab" for="four">Color</label>
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="five-tab" for="five">Application</label>
+                                <label class="w-full py-1 text-slate-600 hover:underline hover:text-slate-800 hover:translate-x-2 transition duration-75 ease-in-out font-semibold text-lg cursor-pointer" id="six-tab" for="six">Others</label>
                             </div>
-                        <div class="menu_m_r"><span class="close">&times;</span></div>
-                    </div> -->
-                <!-- MEGA MENU MOBILE CONTENT END -->
+                        </div>
+                        <!-- PANELS -->
+                        <div class="panels flex-grow ml-20 h-80">
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="one-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content1</p>
+                            </div>
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="two-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content2</p>
+                            </div>
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="three-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content3</p>
+                            </div>
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="four-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content4</p>
+                            </div>
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="five-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content5</p>
+                            </div>
+                            <div class="panel h-full w-full rounded-xl p-8 bg-gradient-to-bl from-slate-400 to-slate-200" id="six-panel">
+                                <div class="text-4xl font-semibold text-slate-800">Header</div>
+                                <p>Content6</p>
+                            </div>
+                        </div>
+                        
 
-            </div>
-        <!-- MEGA MENU MOBILE MODAL END-->
+                    </div>
+                    <div class="flex-shrink"><span class="close">&times;</span></div>
+                </div>
+            <!-- MEGA MENU DESKTOP CONTENT END -->
 
-        <!-- MEGA MENU MOBILE MODAL SCRIPT-->
-            <script>
-            // Get the modal
-            var modal_mobile = document.getElementById("mega_menu_products_modal_mobile");
+        </div>
+        
+        <!-- 
+        .##.....##.########..######......###.......##.....##.########.##....##.##.....##.....######...######..########..####.########..########
+        .###...###.##.......##....##....##.##......###...###.##.......###...##.##.....##....##....##.##....##.##.....##..##..##.....##....##...
+        .####.####.##.......##.........##...##.....####.####.##.......####..##.##.....##....##.......##.......##.....##..##..##.....##....##...
+        .##.###.##.######...##...####.##.....##....##.###.##.######...##.##.##.##.....##.....######..##.......########...##..########.....##...
+        .##.....##.##.......##....##..#########....##.....##.##.......##..####.##.....##..........##.##.......##...##....##..##...........##...
+        .##.....##.##.......##....##..##.....##....##.....##.##.......##...###.##.....##....##....##.##....##.##....##...##..##...........##...
+        .##.....##.########..######...##.....##....##.....##.########.##....##..#######......######...######..##.....##.####.##...........##...
+         -->
+        <script>
+        // Get the modal
+        var modal = document.getElementById("mega_menu_products_modal");
 
-            // Get the button that opens the modal
-            var menu_btn_mobile = document.getElementById("menu_btn_mobile");
+        // Get the button that opens the modal
+        var products_btn = document.getElementById("mega_menu_products_btn");
+        
+        // Get the button that opens the modal
+        var products_btn_mobile = document.getElementById("mega_menu_products_btn_mobile");
 
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-            // When the user clicks the button, open the modal 
-            menu_btn_mobile.onclick = function() {
-              modal.style.display = "block";
+        // When the user clicks the button, open the modal 
+        products_btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        // When the user clicks the button, open the modal 
+        products_btn_mobile.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // // When the user clicks the button, open the modal 
+        // other_btn1.onclick = function() {
+        //   modal.style.display = "none";
+        // }
+        // // When the user clicks the button, open the modal 
+        // other_btn2.onclick = function() {
+        //   modal.style.display = "none";
+        // }
+        // // When the user clicks the button, open the modal 
+        // other_btn3.onclick = function() {
+        //   modal.style.display = "none";
+        // }
+        // // When the user clicks the button, open the modal 
+        // other_btn4.onclick = function() {
+        //   modal.style.display = "none";
+        // }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
             }
-           
-            // When the user clicks the button, open the modal 
-            other_btn1.onclick = function() {
-              modal.style.display = "none";
-            }
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-              modal.style.display = "none";
-            }
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-              if (event.target == modal) {
-                modal.style.display = "none";
-              }
-            }
-            </script>
-        <!-- MEGA MENU MOBILE MODAL SCRIPT END-->
-
-    <!-- MEGA MENU NEW -->
+        }
+        </script>
+        
     </header>
-    <!-- MAIN TOP BANNER CONTAINER -->
-    <div class="float-left w-full mt-16 h-80 laptop:h-80 px-4 laptop:px-8 desktop:px-60 bg-gradient-to-t from-slate-200">
+    <!-- 
+    .##.....##.########.########...#######......######..########..######..########.####..#######..##....##
+    .##.....##.##.......##.....##.##.....##....##....##.##.......##....##....##.....##..##.....##.###...##
+    .##.....##.##.......##.....##.##.....##....##.......##.......##..........##.....##..##.....##.####..##
+    .#########.######...########..##.....##.....######..######...##..........##.....##..##.....##.##.##.##
+    .##.....##.##.......##...##...##.....##..........##.##.......##..........##.....##..##.....##.##..####
+    .##.....##.##.......##....##..##.....##....##....##.##.......##....##....##.....##..##.....##.##...###
+    .##.....##.########.##.....##..#######......######..########..######.....##....####..#######..##....##    
+     -->
+    <!-- <div class="float-left w-full mt-16 h-96 laptop:h-96 px-8 laptop:px-8 desktop:px-60 bg-gradient-to-t from-slate-200"> -->
+    <div class="float-left flex justify-center w-full mt-16 h-[768px] laptop:h-96 px-8 laptop:px-8 bg-gradient-to-t from-slate-200">
         <!-- CENTER CONTAINER -->
-        <div class="float-left w-full h-80">
+        <div class="float-left w-full tablet:w-[1400px] h-80">
             <!-- LEFT -->
-            <div class="laptop:float-left w-full h-fit flex justify-center laptop:w-50% laptop:h-80 pink_border1 ">
+            <div class="laptop:float-left w-full h-80 flex justify-center laptop:w-50% laptop:h-80 pink_border1 ">
                 <div class="float-right flex-row align-middle w-fit">
-                        <h1 class="mt-6 tablet:mt-10 text-4xl tablet:text-5xl whitespace-normal tablet:whitespace-nowrap leading-none text-slate-600 font-semibold drop-shadow-md">The Leading Tile Supplier <br>In the Philippines</h1>
-                        <h2 class="mt-4 text-xl leading-none text-slate-600 font-medium drop-shadow-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Qui eius ratione sunt laboriosam! Hic, distinctio?</h1>
+                        <h1 class="mt-8 tablet:mt-10 text-4xl tablet:text-5xl whitespace-normal tablet:whitespace-nowrap leading-none text-slate-600 tracking-tighter font-semibold drop-shadow-sm">The Leading Tile Brand <br class="hidden tablet:block">In the Philippines</h1>
+                        <h2 class="mt-4 text-xl leading-none text-slate-500 font-medium drop-shadow-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Qui eius ratione sunt laboriosam! Hic, distinctio?</h1>
                         <button class="mt-6 bg-fc_red px-8 h-12 text-lg font-semibold text-white rounded-full shadow-md 
                         hover:bg-slate-400 hover:text-slate-800 hover:scale-110 transition duration-150 ease-in-out" type="submit">Shop Now</button>
                 </div>
             </div>
             <!-- RIGHT -->
-            <div class="float-left w-full laptop:w-50% h-80 laptop:h-80 blue_border1 hidden laptop:block">
+            <div class="float-left w-full laptop:w-50% h-80 laptop:h-80 blue_border1 laptop:block">
                 <!-- 3D IMAGE -->
-                <div style="background-image: url('../src/img/iso.png');"
-                class="float-left bg-center bg-auto bg-no-repeat h-full w-full">
+                <div style="background-image: url('../src/img/iso.png');"class="float-left bg-center bg-contain tablet:bg-auto bg-no-repeat h-full w-full"></div>
+                
+            </div>
+            <!-- BOTTOM LIST -->
+            <div class="flex-wrap tablet:flex justify-center align-middle w-full h-16 float-left bg-slate-400/0 mt-4 tablet:m-0 ">
+                <div class="flex justify-center tablet:justify-end align-middle basis-full tablet:basis-1/2 h-8 tablet:h-16 bg-slate-400/0">
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Bathroom</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Kitchen</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrapt" href="">Indoor</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href=""> Outdoor</a> 
+                </div>
+                <div class="flex justify-center tablet:justify-start align-middle basis-full tablet:basis-1/2 h-8 tablet:h-16 bg-slate-400/0">
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Floor</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Walls</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Vinyls</a> 
+                    <a class="align-middle mx-3 my-auto h-fit font-light hover:text-slate-800 whitespace-nowrap" href="">Sanitary Wares</a> 
 
                 </div>
-                
             </div>
         </div>
     </div>
-
     <!-- 
     ..######.....###....########...#######..##.....##..######..########.##......
     .##....##...##.##...##.....##.##.....##.##.....##.##....##.##.......##......
@@ -340,80 +292,83 @@
     .##....##.##.....##.##....##..##.....##.##.....##.##....##.##.......##......
     ..######..##.....##.##.....##..#######...#######...######..########.########
      -->
-   
-    <div class="w-full h-80 mt-5 float-left carousel overflow-hidden" data-bs-ride="carousel" id="carouselExampleIndicators">
-       <!-- 
-        ..######..##.......####.########..########..######.
-        .##....##.##........##..##.....##.##.......##....##
-        .##.......##........##..##.....##.##.......##......
-        ..######..##........##..##.....##.######....######.
-        .......##.##........##..##.....##.##.............##
-        .##....##.##........##..##.....##.##.......##....##
-        ..######..########.####.########..########..######.
-        -->
-        <!-- data-bs-slide-to   INTERVAL -->
-            <div class="h-40vw w-full float-left px-4 laptop:px-8 desktop:px-80 overflow-clip carousel-inner">
-                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-br from-slate-700 to-blue-200 active">
-                    <!-- <img src="src/img/slide/slide1.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
-                </div>
-                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-bl from-blue-200 to-slate-500">
-                    <!-- <img src="src/img/slide/slide2.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
-                </div>
-                <div class="carousel-item float-left rounded-xl w-full h-80 bg-gradient-to-t from-slate-500 to-blue-200 ">
-                    <!-- <img src="src/img/slide/slide3.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
-                </div>
-            </div>
-       
-        <!--
-        ..######...#######..##....##.########.########...#######..##........######.
-        .##....##.##.....##.###...##....##....##.....##.##.....##.##.......##....##
-        .##.......##.....##.####..##....##....##.....##.##.....##.##.......##......
-        .##.......##.....##.##.##.##....##....########..##.....##.##........######.
-        .##.......##.....##.##..####....##....##...##...##.....##.##.............##
-        .##....##.##.....##.##...###....##....##....##..##.....##.##.......##....##
-        ..######...#######..##....##....##....##.....##..#######..########..######.
-        -->
-            <div class="h-80 w-full float-left px-4 laptop:px-8 desktop:px-80 pidnk_border -translate-y-40vw">
-                <div class="float-left w-10%">
-                    <button
-                        class="carousel-control-prev h-80 flex w-full items-center justify-center"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                            <svg class="hover:scale-110 smooth_transition" width="30" height="49" viewBox="0 0 25 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 2.62561L0.312808 24.3128L22 46" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            
-                    </button>
-                </div>
-                <div class="float-left w-80%">
-                    <div class="carousel-indicators flex items-end justify-center w-full m-0 h-80">
-                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 active"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"  aria-current="true" ></button>
-                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                        <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+    <div class="w-full flex h-auto justify-center">
+        <div class="max-w-[1200px] w-[1200px] h-80 m-0 laptop:my-5 float-left carousel overflow-hidden slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+        <!-- 
+            ..######..##.......####.########..########..######.
+            .##....##.##........##..##.....##.##.......##....##
+            .##.......##........##..##.....##.##.......##......
+            ..######..##........##..##.....##.######....######.
+            .......##.##........##..##.....##.##.............##
+            .##....##.##........##..##.....##.##.......##....##
+            ..######..########.####.########..########..######.
+            -->
+            <!-- data-bs-slide-to   INTERVAL -->
+                <!-- <div class="h-80 w-full float-left px-4 laptop:px-8 desktop:px-80 overflow-clip carousel-inner"> -->
+                <div class="h-80 w-full float-left overflow-hidden laptop:rounded-xl carousel-inner">
+                    <div class="carousel-item float-left laptop:rounded-xl w-full h-80 bg-gradient-to-br from-slate-700 to-slate-200 active">
+                        <!-- <img src="src/img/slide/slide1.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
+                    </div>
+                    <div class="carousel-item float-left laptop:rounded-xl w-full h-80 bg-gradient-to-bl from-slate-200 to-slate-500">
+                        <!-- <img src="src/img/slide/slide2.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
+                    </div>
+                    <div class="carousel-item float-left laptop:rounded-xl w-full h-80 bg-gradient-to-t from-slate-500 to-slate-200 ">
+                        <!-- <img src="src/img/slide/slide3.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
+                    </div>
+                    <div class="carousel-item float-left laptop:rounded-xl w-full h-80 bg-gradient-to-b from-slate-500 to-slate-200 ">
+                        <!-- <img src="src/img/slide/slide3.jpg" class="block rounded-xl w-full h-full" alt="slide"/> -->
                     </div>
                 </div>
-                <div class="float-left w-10%">
-                    <button
-                        class="carousel-control-next h-80 flex w-full items-center justify-center"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                            <svg class="hover:scale-110 smooth_transition" width="30" height="49" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 46L24.6872 24.3128L3 2.62562" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            
-                    </button>
-                </div>
-            </div>
-
         
-       
-    </div>
+            <!--
+            ..######...#######..##....##.########.########...#######..##........######.
+            .##....##.##.....##.###...##....##....##.....##.##.....##.##.......##....##
+            .##.......##.....##.####..##....##....##.....##.##.....##.##.......##......
+            .##.......##.....##.##.##.##....##....########..##.....##.##........######.
+            .##.......##.....##.##..####....##....##...##...##.....##.##.............##
+            .##....##.##.....##.##...###....##....##....##..##.....##.##.......##....##
+            ..######...#######..##....##....##....##.....##..#######..########..######.
+            -->
+                <!-- <div class="h-80 w-full float-left px-4 laptop:px-8 desktop:px-80 pidnk_border -translate-y-80"> -->
+                <div class="h-80 w-full float-left pidnk_border -translate-y-80">
+                    <div class="float-left w-10%">
+                        <button
+                            class="carousel-control-prev h-80 flex w-full items-center justify-center"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                                <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 2.62561L0.312808 24.3128L22 46" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </button>
+                    </div>
+                    <div class="float-left w-80%">
+                        <div class="carousel-indicators flex items-end justify-center w-full m-0 h-80">
+                            <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 active"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"  aria-current="true" ></button>
+                            <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+                            <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                            <button class="w-16 h-4 rounded-full bg-white mx-2 mb-4 "        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" ></button>
+                        </div>
+                    </div>
+                    <div class="float-left w-10%">
+                        <button
+                            class="carousel-control-next h-80 flex w-full items-center justify-center"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                                <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 46L24.6872 24.3128L3 2.62562" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </button>
+                    </div>
+                </div>
 
-   
-    
-    
+            
+        
+        </div>
+    </div>
     <!-- 
     ..######.....###....########...#######..##.....##..######..########.##......
     .##....##...##.##...##.....##.##.....##.##.....##.##....##.##.......##......
@@ -424,9 +379,7 @@
     ..######..##.....##.##.....##..#######...#######...######..########.########
      -->
 
-    <div class="h-[100vw] w-full">
-
-    </div>
+ 
      
     
 </body>

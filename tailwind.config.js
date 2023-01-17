@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  purge:
+  [
+    './build.css',
+    './index.html'
+  ],
   content: 
   [
     './src/**/*.{html,js}',
@@ -67,13 +72,15 @@ module.exports = {
         '100%': '100%',
         
        
-      }
+      },
+     
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
     // require('tw-elements/dist/plugin')
   ],
+  
 }
 // '1': '8px',
 // '2': '12px',
