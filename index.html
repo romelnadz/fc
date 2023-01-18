@@ -44,28 +44,28 @@
                 <!-- CENTER  -->
                 <!-- <div class="float-left hidden laptop:block laptop:w-65% h-16"> -->
                 <div class="flex-grow mx-16 hidden laptop:block h-16">
-                <div class=" w-full h-16 flex justify-between py-3 ">
-                    <button id="mega_menu_products_btn" class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Products
-                    </button>
-                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Sanitary Wares
-                    </button>
-                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Virtual Showroom 
-                    </button>
-                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Ideas and Blogs
-                    </button>
+                    <div class=" w-full h-16 flex justify-between py-3 ">
+                        <button id="mega_menu_products_btn" class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Products
+                        </button>
+                        <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Sanitary Wares
+                        </button>
+                        <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Virtual Showroom 
+                        </button>
+                        <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Ideas and Blogs
+                        </button>
 
-                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Branches
-                    </button>
-                    
-                    <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
-                        Contact Us
-                    </button>
-                </div>
+                        <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Branches
+                        </button>
+                        
+                        <button class="antialiased flex-grow text-sm font-medium text-slate-700 h-10 mx-1 rounded-full truncate hover:font-bold hover:text-slate-900 hover:scale-110 transition duration-150 ease-in-out hover:bg-slate-200">
+                            Contact Us
+                        </button>
+                    </div>
                 </div>
 
                 <!-- LOGIN RIGHT -->
@@ -97,7 +97,6 @@
                             Sign In
                         </button>
                     </div>
-                    
                 </div>
             </div>
         </nav>
@@ -111,23 +110,21 @@
         .##.....##.##.......##....##..##.....##....##.....##.##.......##...###.##.....##
         .##.....##.########..######...##.....##....##.....##.########.##....##..#######.
          -->
-        <div id="mega_menu_products_modal" class="flex justify-center w-full h-full pt-20 fixed hidden z-10 backdrop-blur-sm bg-slate-800/50">
+        <div id="mega_menu_products_modal" class="justify-center w-full h-full pt-20 fixed hidden z-10 backdrop-blur-sm bg-slate-800/50">
 
             <!-- MEGA MENU DESKTOP CONTENT -->
                 <!-- <div class="mega_menu_products_modal_content"> -->
                 <div class="mega_menu_anim flex mx-auto h-96 w-[1400px] relative bg-white backdrop-blur-md rounded-2xl">
                     
                     <div class="flex-row flex flex-grow px-16 py-8">
-                        <!-- radio buttons hidden -->
+                            <!-- radio buttons hidden -->
+                            <input class="radio hidden" id="one" name="group" type="radio" checked>
+                            <input class="radio hidden" id="two" name="group" type="radio">
+                            <input class="radio hidden" id="three" name="group" type="radio">
+                            <input class="radio hidden" id="four" name="group" type="radio">
+                            <input class="radio hidden" id="five" name="group" type="radio">
+                            <input class="radio hidden" id="six" name="group" type="radio">
                             
-                                <input class="radio hidden" id="one" name="group" type="radio" checked>
-                                <input class="radio hidden" id="two" name="group" type="radio">
-                                <input class="radio hidden" id="three" name="group" type="radio">
-                                <input class="radio hidden" id="four" name="group" type="radio">
-                                <input class="radio hidden" id="five" name="group" type="radio">
-                                <input class="radio hidden" id="six" name="group" type="radio">
-                            
-
                         <!-- SIDE TAB -->
                         <div class="flex-shrink h-80">
                             <h1 class="font-bold text-2xl text-slate-700 drop-shadow-md"> Browse by<br>Categories</h1>
@@ -200,11 +197,11 @@
 
         // When the user clicks the button, open the modal 
         products_btn.onclick = function() {
-            modal.style.display = "block";
+            modal.style.display = "flex";
         }
         // When the user clicks the button, open the modal 
         products_btn_mobile.onclick = function() {
-            modal.style.display = "block";
+            modal.style.display = "flex";
         }
         
         // // When the user clicks the button, open the modal 
@@ -263,7 +260,8 @@
             <!-- RIGHT -->
             <div class="float-left w-full laptop:w-50% h-80 laptop:h-80 blue_border1 laptop:block">
                 <!-- 3D IMAGE -->
-                <div style="background-image: url('../src/img/iso.png');"class="float-left bg-center bg-contain tablet:bg-auto bg-no-repeat h-full w-full"></div>
+                <!-- background: url('../src/category/shape_mobile.svg') top/100% no-repeat; height: 35vw; width:100%; -->
+                <div style="background-image: url('../src/img/iso.png');" class="float-left bg-center bg-contain tablet:bg-auto bg-no-repeat h-full w-full"></div>
                 
             </div>
             <!-- BOTTOM LIST -->
@@ -333,15 +331,10 @@
                 <!-- <div class="h-80 w-full float-left px-4 laptop:px-8 desktop:px-80 pidnk_border -translate-y-80"> -->
                 <div class="h-80 w-full float-left pidnk_border -translate-y-80">
                     <div class="float-left w-10%">
-                        <button
-                            class="carousel-control-prev h-80 flex w-full items-center justify-center"
-                            type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                                <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button class="carousel-control-prev h-80 flex w-full items-center justify-center" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22 2.62561L0.312808 24.3128L22 46" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                
+                            </svg>
                         </button>
                     </div>
                     <div class="float-left w-80%">
@@ -353,15 +346,10 @@
                         </div>
                     </div>
                     <div class="float-left w-10%">
-                        <button
-                            class="carousel-control-next h-80 flex w-full items-center justify-center"
-                            type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                                <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button class="carousel-control-next h-80 flex w-full items-center justify-center" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <svg class="hover:scale-110 smooth_transition" width="25" height="39" viewBox="0 0 28 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3 46L24.6872 24.3128L3 2.62562" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                
+                            </svg>
                         </button>
                     </div>
                 </div>
@@ -379,9 +367,5 @@
     .##....##.##.....##.##....##..##.....##.##.....##.##....##.##.......##......
     ..######..##.....##.##.....##..#######...#######...######..########.########
      -->
-
- 
-     
-    
 </body>
 </html>
