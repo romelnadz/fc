@@ -1,6 +1,4 @@
 
-
-/* Modal Content */
 .mega_menu_anim {
   
   -webkit-animation-name: animateside;
@@ -18,26 +16,6 @@
       animation-duration: 0.4s
     }
 }
-
-/*//..........................................................................................................
-//.....CCCCCC....LLL...........OOOOOO.......SSSSSS....EEEEEEEEEE.......BBBBBBBBB....TTTTTTTTTTNNNNN....NNN..
-//...CCCCCCCCC...LLL.........OOOOOOOOOO...SSSSSSSSS...EEEEEEEEEE.......BBBBBBBBBBB..TTTTTTTTTTNNNNN....NNN..
-//..CCCCCCCCCCC..LLL........OOOOOOOOOOOO..SSSSSSSSSS..EEEEEEEEEE.......BBBBBBBBBBB..TTTTTTTTTTNNNNNN...NNN..
-//..CCCC...CCCC..LLL........OOOO....OOOO..SSS...SSSS..EEE..............BBB.....BBB......TTT....NNNNN...NNN..
-//..CCC.....CC...LLL........OOO......OOO..SSSS........EEE..............BBB.....BBB......TTT....NNNNNN..NNN..
-//.CCCC..........LLL.......OOOO......OOOO.SSSSSSS.....EEEEEEEEEE.......BBBBBBBBBB.......TTT....NNNNNNN.NNN..
-//.CCCC..........LLL.......OOOO......OOOO..SSSSSSSS...EEEEEEEEEE.......BBBBBBBBBB.......TTT....NNN.NNN.NNN..
-//.CCCC..........LLL.......OOOO......OOOO....SSSSSSS..EEEEEEEEEE.......BBBBBBBBBBB......TTT....NNN.NNNNNNN..
-//..CCC.....CC...LLL........OOO......OOO.........SSSS.EEE..............BBB.....BBBB.....TTT....NNN..NNNNNN..
-//..CCCC...CCCC..LLL........OOOO....OOOO.SSSS....SSSS.EEE..............BBB.....BBBB.....TTT....NNN..NNNNNN..
-//..CCCCCCCCCCC..LLLLLLLLLL.OOOOOOOOOOOO..SSSSSSSSSS..EEEEEEEEEEE......BBBBBBBBBBB......TTT....NNN...NNNNN..
-//...CCCCCCCCC...LLLLLLLLLL..OOOOOOOOOO...SSSSSSSSSS..EEEEEEEEEEE......BBBBBBBBBBB......TTT....NNN....NNNN..
-//.....CCCCCC....LLLLLLLLLL....OOOOOO.......SSSSSS....EEEEEEEEEEE......BBBBBBBBBB.......TTT....NNN....NNNN..
-//..........................................................................................................
-*/
-/* The Close Button */
-
-
 
 
 /*//..............................................................................................................
@@ -87,239 +65,6 @@
 }
 
 
-/*//..................................................................................................................
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU...... WW...WWWWW...WWW.RRRRRRRRR.......AAAA......PPPPPPPPP...
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU...... WW...WWWWW...WWW.RRRRRRRRRRR.....AAAAA.....PPPPPPPPPP..
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNNN...NNN..UUU.....UUU...... WWW..WWWWW..WWWW.RRRRRRRRRRR.....AAAAA.....PPPPPPPPPP..
-//.MMMMM...MMMMM..EEE.........NNNNN...NNN..UUU.....UUU...... WWW..WWWWW..WWWW.RRR.....RRR....AAAAAA.....PPP....PPP..
-//.MMMMMM.MMMMMM..EEE.........NNNNNN..NNN..UUU.....UUU.......WWW.WWWWWWW.WWW..RRR.....RRR....AAAAAAA....PPP....PPP..
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNNNNNN.NNN..UUU.....UUU.......WWW.WWW.WWW.WWW..RRRRRRRRRRR...AAAA.AAA....PPPPPPPPPP..
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNN.NNN.NNN..UUU.....UUU.......WWWWWWW.WWW.WWW..RRRRRRRRRR....AAA..AAAA...PPPPPPPPPP..
-//.MMMMMMMMMMMMM..EEEEEEEEEE..NNN.NNNNNNN..UUU.....UUU.......WWWWWWW.WWWWWWW..RRRRRRRR......AAAAAAAAA...PPPPPPPPP...
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUU.....UUU........WWWWWW..WWWWW...RRR..RRRR....AAAAAAAAAA...PPP.........
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUUU...UUUU........WWWWW...WWWWW...RRR...RRRR...AAAAAAAAAAA..PPP.........
-//.MMM.MMMMM.MMM..EEEEEEEEEEE.NNN...NNNNN..UUUUUUUUUUU........WWWWW...WWWWW...RRR....RRRR..AAA.....AAA..PPP.........
-//.MMM..MMMM.MMM..EEEEEEEEEEE.NNN....NNNN...UUUUUUUUU.........WWWWW...WWWWW...RRR....RRRR.RAAA.....AAAA.PPP.........
-//.MMM..MMM..MMM..EEEEEEEEEEE.NNN....NNNN....UUUUUUU..........WWWW.....WWWW...RRR.....RRRRRAA......AAAA.PPP.........
-//..................................................................................................................
-*/
-
-.menu_m_l
-{
-  width: 5%; 
-  height: 100%;
-  float: left;
-}
-.menu_center
-{
-  width: 90%; 
-  height: 100%;
-  float: left;
-}
-.menu_m_r
-{
-  width: 5%; 
-  height: 100%;
-  float: right;
-}
-
-
-@media only screen and (min-width: 480px)
-{
-            .menu_m_l
-            {
-              width: 5%; 
-              height: 100%;
-              float: left;
-            }
-            .menu_center
-            {
-              width: 90%; 
-              height: 100%;
-              float: left;
-            }
-            .menu_m_r
-            {
-              width: 5%; 
-              height: 100%;
-              float: right;
-            }
-}
-
-
-@media only screen and (min-width: 1440px)
-{
-                        .menu_m_l
-                        {
-                          width: 5%; 
-                          height: 100%;
-                          float: left;
-                        }
-                        .menu_center
-                        {
-                          width: 90%; 
-                          height: 100%;
-                          float: left;
-                        }
-                        .menu_m_r
-                        {
-                          width: 5%; 
-                          height: 100%;
-                          float: right;
-                        }
-}
-
-
-
-
-/*.warpper {
-z-index: 4;
-}
-*/
-
-/*//...............................................................................................
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU.......TTTTTTTTTTT..AAAA.....AABBBBBBBB....
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU.......TTTTTTTTTTT..AAAA.....AABBBBBBBBB...
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNNN...NNN..UUU.....UUU.......TTTTTTTTTTT.AAAAAA....AABBBBBBBBBB..
-//.MMMMM...MMMMM..EEE.........NNNNN...NNN..UUU.....UUU...........TTT.....AAAAAA....AABB....BBBB..
-//.MMMMMM.MMMMMM..EEE.........NNNNNN..NNN..UUU.....UUU...........TTT....AAAAAAA....AABB....BBBB..
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNNNNNN.NNN..UUU.....UUU...........TTT....AAA.AAAA...AABBBBBBBBB...
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNN.NNN.NNN..UUU.....UUU...........TTT....AAA..AAA...AABBBBBBBBB...
-//.MMMMMMMMMMMMM..EEEEEEEEEE..NNN.NNNNNNN..UUU.....UUU...........TTT...TAAAAAAAAA..AABBBBBBBBBB..
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUU.....UUU...........TTT...TAAAAAAAAA..AABB.....BBB..
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUUU...UUUU...........TTT...TAAAAAAAAA..AABB.....BBB..
-//.MMM.MMMMM.MMM..EEEEEEEEEEE.NNN...NNNNN..UUUUUUUUUUU...........TTT..TTAA....AAAA.AABBBBBBBBBB..
-//.MMM..MMMM.MMM..EEEEEEEEEEE.NNN....NNNN...UUUUUUUUU............TTT..TTA......AAA.AABBBBBBBBBB..
-//.MMM..MMM..MMM..EEEEEEEEEEE.NNN....NNNN....UUUUUUU.............TTT.TTTA......AAAAAABBBBBBBB....
-//...............................................................................................
-*/
-
-.tab_nav
-{
-  width:100%;
-  height: 60vw; 
-  float:left;
-  margin:2vw 0vw 0vw 0vw;
-}
-
-.tab_nav_header
-{
-  /* font: 6vw/6vw 'work-bold'; */
-  /* color: #000; */
-  margin: 2vw 0vw 4vw 0vw;
-}
-
-.tab {
-  cursor: pointer;
-  color: #777;
-  height: 5vw;
-  width: 100%;
-  /* font: 4vw/4vw 'work-med'; */
-  margin: 1vw 0vw 0vw 0vw;
-  overflow: hidden;
-  /*border: solid 1px #ccc;*/
-  display: inline-flex;
-}
-
-.tab:hover 
-{
-  text-decoration: underline;
-}
-
-
-@media only screen and (min-width: 480px)
-{
-            
-            .tab_nav
-            {
-              width:15%;
-              height: 20vw; 
-              float:left;
-              margin: 0vw 0vw 0vw 0vw;
-            }
-
-            .tab_nav_header
-            {
-              /* font: 1.4vw/1.4vw 'work-bold'; */
-              /* color: #000; */
-              margin: 2vw 0vw 2vw 0vw;
-            }
-            .tab 
-            {
-              cursor: pointer;
-              color: #777;
-              height: 2vw;
-              width: 100%;
-              /* font: 1vw/1vw 'work-med'; */
-              margin: 0vw 0vw 0vw 0vw;
-              overflow: hidden;
-            }
-            .tab:hover 
-            {
-              text-decoration: underline;
-            }
-              
-              
-}
-@media only screen and (min-width: 1440px)
-{
-            
-                          .tab_nav
-                          {
-                            width:15%;
-                            height: 100%; 
-                            float:left;
-                            margin: 0vw 0vw 0vw 0vw;
-                          }
-
-                          .tab_nav_header
-                          {
-                            /* font: 1.1vw/1.1vw 'work-bold'; */
-                            /* color: #000; */
-                            margin: 1.6vw 0vw 1.6vw 0vw;
-                          }
-                          .tab 
-                          {
-                            cursor: pointer;
-                            color: #777;
-                            height: 1.6vw;
-                            width: 100%;
-                            /* font: .8vw/.8vw 'work-med'; */
-                            text-align: left;
-                            margin: 0vw 0vw 0vw 0vw;
-                            overflow: hidden;
-                          }
-                          .tab:hover 
-                          {
-                            text-decoration: underline;
-                          }
-                            
-              
-}
-
-
-/*//.......................................................................................................................
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU.......PPPPPPPPP.....AAAA......ANN....NNNN.NNEEEEEEEEE..ELL........
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNN....NNN..UUU.....UUU.......PPPPPPPPPP....AAAA......ANNN...NNNN.NNEEEEEEEEE..ELL........
-//.MMMMM...MMMMM..EEEEEEEEEE..NNNNN...NNN..UUU.....UUU.......PPPPPPPPPP...AAAAAA.....ANNNN..NNNN.NNEEEEEEEEE..ELL........
-//.MMMMM...MMMMM..EEE.........NNNNN...NNN..UUU.....UUU.......PPP....PPPP..AAAAAA.....ANNNN..NNNN.NNEE.........ELL........
-//.MMMMMM.MMMMMM..EEE.........NNNNNN..NNN..UUU.....UUU.......PPP....PPPP.AAAAAAA.....ANNNNN.NNNN.NNEE.........ELL........
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNNNNNN.NNN..UUU.....UUU.......PPPPPPPPPP..AAA.AAAA....ANNNNN.NNNN.NNEEEEEEEE...ELL........
-//.MMMMMM.MMMMMM..EEEEEEEEEE..NNN.NNN.NNN..UUU.....UUU.......PPPPPPPPPP..AAA..AAA....ANNNNNNNNNN.NNEEEEEEEE...ELL........
-//.MMMMMMMMMMMMM..EEEEEEEEEE..NNN.NNNNNNN..UUU.....UUU.......PPPPPPPPP..PAAAAAAAAA...ANN.NNNNNNN.NNEEEEEEEE...ELL........
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUU.....UUU.......PPP........PAAAAAAAAA...ANN.NNNNNNN.NNEE.........ELL........
-//.MMM.MMMMM.MMM..EEE.........NNN..NNNNNN..UUUU...UUUU.......PPP........PAAAAAAAAA...ANN..NNNNNN.NNEE.........ELL........
-//.MMM.MMMMM.MMM..EEEEEEEEEEE.NNN...NNNNN..UUUUUUUUUUU.......PPP.......PPAA....AAAA..ANN...NNNNN.NNEEEEEEEEE..ELLLLLLLL..
-//.MMM..MMMM.MMM..EEEEEEEEEEE.NNN....NNNN...UUUUUUUUU........PPP.......PPA......AAA..ANN...NNNNN.NNEEEEEEEEE..ELLLLLLLL..
-//.MMM..MMM..MMM..EEEEEEEEEEE.NNN....NNNN....UUUUUUU.........PPP......PPPA......AAAA.ANN....NNNN.NNEEEEEEEEE..ELLLLLLLL..
-//.......................................................................................................................
-*/
-
-.radio {
-  display: none;
-  /*margin-right: -.4vw;*/
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -329,67 +74,13 @@ z-index: 4;
   }
 }
 
-
-.panels 
-{
-  float: left;
-  background: #fff;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  /*padding: 20px;*/
-  z-index: 4;
-}
-
-@media only screen and (min-width: 480px)
-{
-        .panels 
-        {
-          float: left;
-          background: #fff;
-          height: 100%;
-          width: 85%;
-          overflow: auto;
-          /*padding: 20px;*/
-          z-index: 4;
-        }
-}
-
 .panel {
-  display: none;
   animation: fadein 0.8s;
 }
 
-.panel-title {
-  font-size: 1.5em;
-  font-weight: bold;
-}
 
 
-
-
-
-
-/*//....................................................................................................
-//.PPPPPPPPP.....AAAA......ANN....NNNN.NNEEEEEEEEE..ELL............ II.IIMMM....MMMMM.....GGGGGG.....
-//.PPPPPPPPPP....AAAA......ANNN...NNNN.NNEEEEEEEEE..ELL............ II.IIMMMM...MMMMM...GGGGGGGGG....
-//.PPPPPPPPPP...AAAAAA.....ANNNN..NNNN.NNEEEEEEEEE..ELL............ II.IIMMMM..MMMMMM..MGGGGGGGGGG...
-//.PPP....PPPP..AAAAAA.....ANNNN..NNNN.NNEE.........ELL............ II.IIMMMM..MMMMMM..MGGG...GGGGG..
-//.PPP....PPPP.AAAAAAA.....ANNNNN.NNNN.NNEE.........ELL............ II.IIMMMM..MMMMMM.MMGG.....GGG...
-//.PPPPPPPPPP..AAA.AAAA....ANNNNN.NNNN.NNEEEEEEEE...ELL............ II.IIMMMMM.MMMMMM.MMG............
-//.PPPPPPPPPP..AAA..AAA....ANNNNNNNNNN.NNEEEEEEEE...ELL............ II.IIMMMMMMMMMMMM.MMG...GGGGGGG..
-//.PPPPPPPPP..PAAAAAAAAA...ANN.NNNNNNN.NNEEEEEEEE...ELL............ II.IIMMMMMMMM.MMM.MMG...GGGGGGG..
-//.PPP........PAAAAAAAAA...ANN.NNNNNNN.NNEE.........ELL............ II.IIMMMMMMMM.MMM.MMGG..GGGGGGG..
-//.PPP........PAAAAAAAAA...ANN..NNNNNN.NNEE.........ELL............ II.IIMM.MMMMM.MMM..MGGG....GGGG..
-//.PPP.......PPAA....AAAA..ANN...NNNNN.NNEEEEEEEEE..ELLLLLLLLL..... II.IIMM.MMMM..MMM..MGGGGGGGGGGG..
-//.PPP.......PPA......AAA..ANN...NNNNN.NNEEEEEEEEE..ELLLLLLLLL..... II.IIMM.MMMM..MMM...GGGGGGGGGG...
-//.PPP......PPPA......AAAA.ANN....NNNN.NNEEEEEEEEE..ELLLLLLLLL..... II.IIMM.MMMM..MMM.....GGGGGG.....
-//....................................................................................................
-*/
-
-
-
-.panel_img1
+/* .panel_img1
 {
   background-image: url('../src/category/shape_mobile.svg');
   background-repeat: no-repeat;
@@ -399,80 +90,8 @@ z-index: 4;
   height: 160vw;
   width: 100%;
   margin: 0; 
-  /*overflow: scroll;*/
-}
-
-.panel_img2
-{
-  background-image: url('../src/category/look_mobile.svg');
-  background-repeat: no-repeat;
-  background-attachment: contain;
-  background-size: 100%;
-  background-position: center;
-  height: 180vw;
-  width: 100%;
-  margin: 0;
-  /*overflow: scroll;*/
-}
-
-.panel_img3
-{
-  background-image: url('../src/category/finish_mobile.svg');
-  background-repeat: no-repeat;
-  background-attachment: contain;
-  background-size: 80%;
-  background-position: center;
-  height: 230vw;
-  width: 100%;
-  margin: 0;
-  /*overflow: scroll; */
-}
-
-
-@media only screen and (min-width: 480px)
-{
-            
-            .panel_img1
-            {
-              background-image: url('../src/category/shape.svg');
-              background-repeat: no-repeat;
-              background-attachment: contain;
-              background-size: 100%;
-              background-position: center;
-              height: 18vw;
-              width: 100%;
-              margin: 0; 
-              /*overflow-y: hidden;*/
-            }
-
-            .panel_img2
-            {
-              background-image: url('../src/category/look.svg');
-              background-repeat: no-repeat;
-              background-attachment: contain;
-              background-size: 100%;
-              background-position: center;
-              height: 18vw;
-              width: 100%;
-              margin: 0; 
-              /*overflow-y: hidden;*/
-            }
-
-            .panel_img3
-            {
-              background-image: url('../src/category/finish.svg');
-              background-repeat: no-repeat;
-              background-attachment: contain;
-              background-size: 100%;
-              background-position: center;
-              height: 18vw;
-              width: 100%;
-              margin: 0; 
-              /*overflow-y: hidden;*/
-            }
-}
-
-
+  overflow: scroll;
+} */
 
 
 
@@ -514,41 +133,7 @@ z-index: 4;
 #five:checked ~ .tab_nav #five-tab,
 #six:checked ~ .tab_nav #six-tab
 {
-  /* font: 4vw/4vw 'work-bold'; */
-  color: #000;
-  text-decoration: underline;
+  /* color: #000;
+  /* text-decoration: underline; */
 }
 
-
-@media only screen and (min-width: 480px)
-{
-        #one:checked ~ .tab_nav #one-tab,
-        #two:checked ~ .tab_nav #two-tab,
-        #three:checked ~ .tab_nav #three-tab,
-        #four:checked ~ .tab_nav #four-tab,
-        #five:checked ~ .tab_nav #five-tab,
-        #six:checked ~ .tab_nav #six-tab
-        {
-          /* font: 1.1vw/1.1vw 'work-bold'; */
-          color: #000;
-          text-decoration: underline;
-        }
-
-}
-
-
-@media only screen and (min-width: 1440px)
-{
-                  #one:checked ~ .tab_nav #one-tab,
-                  #two:checked ~ .tab_nav #two-tab,
-                  #three:checked ~ .tab_nav #three-tab,
-                  #four:checked ~ .tab_nav #four-tab,
-                  #five:checked ~ .tab_nav #five-tab,
-                  #six:checked ~ .tab_nav #six-tab
-                  {
-                    /* font: .8vw/.8vw 'work-bold'; */
-                    color: #000;
-                    text-decoration: underline;
-                  }
-
-}
