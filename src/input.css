@@ -7,9 +7,32 @@
 @layer utilities 
 		  {
 	        .content-auto 
-			{
+			    {
 	          content-visibility: auto;
 	        }
+          .hotspot-btn:hover + .hotspot-card
+          {
+            display: block;
+            animation: show 0.2s ease-in-out;
+          }
+          .hotspot-card
+          {
+            display:none;
+          }
+          .hotspot-card:hover
+          {
+            display:block;
+          }
+          @keyframes show {
+            0% {
+              opacity: 0;
+              transform: scale(0.8);
+            }
+            100% {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
 	      }
 
 @layer base 
